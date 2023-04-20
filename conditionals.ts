@@ -26,9 +26,9 @@ function fetchPokemon<
   }
 }
 
-fetchPokemon(
-  "https://pokeapi.co/api/v2/pokemon?limit=10",
-  <PokemonResults>(data) => {
-    data.results.forEach(({ name }) => console.log(name));
-  }
-);
+// fetchPokemon(
+//   "https://pokeapi.co/api/v2/pokemon?limit=10",
+//   <PokemonResults>(data) => {
+//     data.results.forEach(({ name }) => console.log(name));
+//   }
+// );
